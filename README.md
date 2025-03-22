@@ -23,3 +23,11 @@ The code demonstrates a modular approach to image processing, using a simplified
 │   └── main.cpp             # Entry point for running the pipeline
 ```
 
+## Classes and Modules
+
+### Image Structure
+
+The `Image` structure provides a simple representation of a grayscale image:
+- `width` and `height` define the image dimensions
+- `pixels` is a vector of integer values (0-255) representing pixel brightness
+
