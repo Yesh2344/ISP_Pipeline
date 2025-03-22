@@ -12,3 +12,14 @@ This project implements a basic ISP pipeline that simulates:
 
 The code demonstrates a modular approach to image processing, using a simplified grayscale image model. It's designed for educational purposes to illustrate the core components of an ISP system.
 
+## Project Structure
+
+```
+├── include/
+│   ├── Image.h              # Image data structure definition
+│   └── ISP_Pipeline.h       # ISP pipeline class declaration
+├── src/
+│   ├── ISP_Pipeline.cpp     # Implementation of ISP pipeline modules
+│   └── main.cpp             # Entry point for running the pipeline
+```
+
