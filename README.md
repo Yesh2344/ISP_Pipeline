@@ -81,10 +81,3 @@ This is a simulation intended for educational purposes:
 - Noise reduction is simplistic (5% reduction of pixel values)
 - Random generation is used to simulate sensor behavior and update availability
 
-## Future Extensions
-
-Possible enhancements to this project:
-- Support for color images (RGB or YUV)
-- Additional processing modules (sharpening, HDR, white balance)
-- Realistic sensor simulation with various noise models
-- Performance optimizations for real-time processing
