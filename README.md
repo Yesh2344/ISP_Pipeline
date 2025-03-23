@@ -59,3 +59,32 @@ The pipeline will run for 10 iterations, simulating image capture and processing
 
 ## Implementation Details
 
+### Exposure Control
+
+The auto-exposure module analyzes the average brightness of captured images:
+- If brightness is below 50, exposure is increased
+- If brightness is above 200, exposure is decreased
+- Exposure values are constrained between 0 and 255
+
+### Denoising
+
+The adaptive denoising module applies a simplified noise reduction algorithm. In a real implementation, this would typically involve spatial filtering or deep learning approaches.
+
+### OTA Updates
+
+The system randomly simulates the availability of firmware updates (5% chance per iteration) and performs the update when available.
+
+## Limitations
+
+This is a simulation intended for educational purposes:
+- Uses a simplified grayscale image model
+- Noise reduction is simplistic (5% reduction of pixel values)
+- Random generation is used to simulate sensor behavior and update availability
+
+## Future Extensions
+
+Possible enhancements to this project:
+- Support for color images (RGB or YUV)
+- Additional processing modules (sharpening, HDR, white balance)
+- Realistic sensor simulation with various noise models
+- Performance optimizations for real-time processing
