@@ -91,7 +91,7 @@ Possible enhancements to this project:
 - Performance optimizations for real-time processing
 
 ## Copyrights
-@Yeswanth Soma
+@Yeswanth Soma All Copyrights Reserved
 ## Contact
 
 Email:yeswanthsoma83@gmail.com
